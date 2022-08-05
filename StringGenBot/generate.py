@@ -32,18 +32,17 @@ from telethon.errors import (
 )
 
 
-ask_ques = "**» ᴩʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ᴩʏᴛʜᴏɴ ʟɪʙʀᴀʀʏ ғᴏʀ ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ :**"
+ask_ques = "**String Session Mana Yang ingin Anda Buat?**\n"
+           "**» ᴛᴇʟᴇᴛʜᴏɴ Untuk (ALBY-Userbot)**\n"
+           "**» ᴩʏʀᴏɢʀᴀᴍ Untuk (BOT Music)**\n"
+           "**» ᴩʏʀᴏɢʀᴀᴍ ᴠ2 Untuk (ALBY-Userbot)**","
 buttons_ques = [
     [
         InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ", callback_data="pyrogram1"),
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ ᴠ2", callback_data="pyrogram"),
-    ],
-    [
         InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ", callback_data="telethon"),
     ],
     [
-        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ ʙᴏᴛ", callback_data="pyrogram_bot"),
-        InlineKeyboardButton("ᴛᴇʟᴇᴛʜᴏɴ ʙᴏᴛ", callback_data="telethon_bot"),
+        InlineKeyboardButton("ᴩʏʀᴏɢʀᴀᴍ ᴠ2", callback_data="pyrogram"),
     ],
 ]
 
