@@ -8,17 +8,16 @@ class Data:
 
     buttons = [
         generate_single_button,
-        [InlineKeyboardButton("❣️ sᴜᴩᴩᴏʀᴛ ❣️", url="https://t.me/DevilsHeavenMF"),
-         InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url="https://t.me/anonymous_was_bot"),
+        [InlineKeyboardButton("❣️ sᴜᴩᴩᴏʀᴛ ❣️", url="https://t.me/ruangdiskusikami"),
+         InlineKeyboardButton("🥀 ᴅᴇᴠᴇʟᴏᴩᴇʀ 🥀", url="https://t.me/punya_alby"),
         ],
     ]
 
     START = """
 Hᴇʏ {},
-
-Tʜɪs ɪs {},
-Aɴ ᴏᴩᴇɴ sᴏᴜʀᴄᴇᴅ sᴛʀɪɴɢ sᴇssɪᴏɴ ɢᴇɴᴇʀᴀᴛᴏʀ ʙᴏᴛ, ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ ᴛʜᴇ ʜᴇʟᴩ ᴏғ ᴩʏʀᴏɢʀᴀᴍ.
-
-Sᴏᴜʀᴄᴇ : [ɢɪᴛʜᴜʙ](https://github.com/AnonymousR1025/StringGenBot)
-Mᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ : [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](https://t.me/anonymous_was_bot) !
+━━━━━━━━━━━━━━━━━━━━━━━━
+Saya adalah {},
+di buat untuk Membantu anda Untuk Mengambil String Session Telegram dengan Mudah dan AMAN!
+━━━━━━━━━━━━━━━━━━━━━━━━
+Mᴀᴅᴇ ᴡɪᴛʜ ☕️ ʙʏ : [『ⒶⓁⒷⓎ』](https://t.me/punya_alby) !
     """
