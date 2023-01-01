@@ -1,13 +1,13 @@
 import os
 from dotenv import load_dotenv
 
-load_dotenv(".env")
+load_dotenv()
 
-API_ID = os.getenv("API_ID", "16179045").strip()
-API_HASH = os.getenv("API_HASH", "dc99c86a0b38365fd6c8b35ae9c577b9").strip()
-BOT_TOKEN = os.getenv("BOT_TOKEN", "5102922761:AAHlV5I94TKE52ixf2vHrZ7W59lLcXyEMJw").strip()
+API_ID = os.getenv("API_ID", "").strip()
+API_HASH = os.getenv("API_HASH", "").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
 DATABASE_URL = os.getenv("DATABASE_URL", "").strip()
-MUST_JOIN = os.getenv("MUST_JOIN", "ruangdiskusikami")
+MUST_JOIN = os.getenv("MUST_JOIN", "")
 
 if not API_ID:
     print("No API_ID found. Exiting...")
