@@ -18,9 +18,9 @@ async def must_join_channel(bot: Client, msg: Message):
                 chat_info = await bot.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             try:
-                await msg.reply_photo(photo="https://telegra.ph/file/a780d017b9d9a8d5d509a.jpg", caption=f"» Halo, Kamu harus bergabung @ruangdiskusikami terlebih dahulu untuk menggunakan bot ini. Setelah bergabung silahkan /start lagi! !",
+                await msg.reply_photo(photo="https://telegra.ph/file/a780d017b9d9a8d5d509a.jpg", caption=f"» Halo, Kamu harus bergabung [ɢʀᴏᴜᴘ ꜱᴜᴘᴘᴏʀᴛ](@ruangdiskusikami) terlebih dahulu untuk menggunakan bot ini. Setelah bergabung silahkan /start lagi! !",
                     reply_markup=InlineKeyboardMarkup([
-                        [InlineKeyboardButton("🥺 BERGABUNG 🥺", url=f"{link}")]
+                        [InlineKeyboardButton("ʙᴇʀɢᴀʙᴜɴɢ", url=f"{link}")]
                     ])
                 )
                 await msg.stop_propagation()
